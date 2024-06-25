@@ -1,8 +1,8 @@
 ---
 homepage: true
 layout: product
-title: A design history for your NHS.UK service
-description: A permanent record of how your service has developed over time.
+title: A design history for the Select People for Invitations service
+description: A permanent record of how the service has developed over time.
 pagination:
   data: collections.all
   reverse: true
