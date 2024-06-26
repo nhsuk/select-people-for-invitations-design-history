@@ -21,7 +21,7 @@ screenshots:
     - text: Library of pre-configured exclusion rules
       src: 05-library.png
       caption: |
-        The idea of having a library of exclusion rules that users could pick from was very well recieved. This is similar to how users work now, in that they have documented some common rules on Confluence which they can copy and paste. They saw opportunities for this new service to improve on that process by allowing common rules to be specified per campaign type (e.g. Covid, MMR, etc.) There was less confidence about concept of the "commonly used" section. User weren't certain how this would be populated, whether it was different per user, per campaign type, or some other combination. It wasn't clear that this idea would make it easier to find the right selcetions over a sensibly ordered and well structured list.
+        The idea of having a library of exclusion rules that users could pick from was very well recieved. This is similar to how users work now, in that they have documented some common rules on Confluence which they can copy and paste. They saw opportunities for this new service to improve on that process by allowing common rules to be specified per campaign type (e.g. Covid, MMR, etc.) There was less confidence about the concept of a "commonly used" section. User weren't certain how this would be populated, whether it was different per user, per campaign type, or some other combination. It wasn't clear that this idea would make it easier to find the right selections over a sensibly ordered and well structured list.
     - text: Long lists of options
       src: 06-lists.png
       caption: |
