@@ -4,19 +4,19 @@ description: A summary of feedback on our initial design
 date: 2024-06-24
 screenshots:
   items:
-    - text: Summary screens 1
+    - text: Campaign dates
       src: 01-confirmation-1.png
       caption: |
         1 Users enter some basic parameters for the invitation campaign
-    - text: Summary screen 2
+    - text: Confirm campaign details (summary screen)
       src: 02-confirmation-2.png
       caption: |
         2 Periodically throughout the data entry process we show a summary screen for users to check they've entered details correctly. The feedback we gathered about this was very positive with users commenting it is "Good to have a summary to make sure you've done everything" 
-    - text: Task list 1
+    - text: Choose cohorts (Task list)
       src: 03-task-list-1.png
       caption: |
         We have based the invitation campaign configuration process around a modified "task list" type component. This allows us to break down the overall task into smaller sub tasks. This seemed to fit with the users mental model and the concept worked well. 
-    - text: Task list 2
+    - text: Add filter and suppression rules (Task list)
       src: 04-task-list-2.png
     - text: Library of pre-configured exclusion rules
       src: 05-library.png
