@@ -11,19 +11,19 @@ tags:
 ---
 
 ## Exec summary
-Overall the rule library value was considered to add significant value, but we plan to revisit it in the future as we believe there are some improvements that we can make - in particular to do with rules involving ages and dates. 
+Overall the rule library was considered to add significant value, but we plan to revisit it in the future as we believe there are some improvements that we can make - in particular to do with rules involving ages and dates. 
 
 ## What are rules?
 As shown in the diagram on the [brief description of this service](/what-is-this-service/), the way SPI works is by removing people from an initial dataset (the cohorts of eligible people), so that the people remaining are the ones we want to contact at that particular time.
 
-The way we remove people from an invitation batch is by applying "rules" such as:
+The way we remove people from an invitation group is by applying "rules" such as:
 - don't invite people who are resident in a care home (because they have alternative vaccination arrangements)
 - don't invite people outside of certain ICBs (because we're inviting where there is good appointment capacity)
 - don't invite people who are too old or too young (usually people outside of the elgible age range shouldn't be in our base cohorts in the first place, but sometimes PDS records are corrected inbetween the cohorts being generated and the invitations being sent, so someone might have initially appeared eligible, but in fact they aren't)
 
 Rules are also used to define which message content and communication channels should be used, e.g.
-- Send people under 16 version 1
-- Send people over 16 version 2
+- send people under 16 version 1
+- send people over 16 version 2
 - send people with a braille preference the braille letter
 
 ## How do users add rules without the library
@@ -34,7 +34,7 @@ As can be seen in the image below the lists of options available for configuring
 ![UI for building a rule, showing long list of attributes](addrule2.png)
 
 ## How can users add rules using the library
-The idea of the library was that it could potentially have 3 types of benefit:
+The idea of the library was that it could potentially have 3 benefits:
 1. a quick way to add frequently used rules
 2. confidence that rules are constructed correctly and will work as expected
 3. a way to learn about how rules are constructed, and the ability to copy a library rule as the basis to create a custom rule​
@@ -42,7 +42,7 @@ The idea of the library was that it could potentially have 3 types of benefit:
 We worked with the current users to understand which rules would be most useful to them in the library. We then came up with a simple design for choosing rules from the library. 
 ![List of library rules](library1.png)
 
-After a rule has been chosen, the user is taken to the normal "rule builder" page, with the values pre-populated. They will need to adjust some parameters e.g. in this case the "~X~" which represents the number of years.
+After a rule has been chosen, the user is taken to the normal "rule builder" page, with the values pre-populated. They will need to adjust some parameters e.g. in this case the "\~X\~" which represents the number of years.
 ![The rule builder with the library values prepopulated](library2.png)
 
 This approach was found to work reasonably well and allowed us to release value quickly by reusing screens and building on functionality which already exists. Users found it clear how to select rules from the library, though some usability issues were noted around having to manually find the right parts of strings to update on the pre-populated "rule builder" page. 
